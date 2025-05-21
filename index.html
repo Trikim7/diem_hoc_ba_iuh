@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tính Điểm Xét Tuyển IUH</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <main class="main-container">
+        <div class="container">
+            <!-- Header -->
+            <header class="header">
+                <div class="logo">
+                    <img src="img\iuh_logo chính thức.png" alt="IUH Logo" style="height: 200px; width: auto;">
+                </div>
+                <h1>Tính Điểm Xét Tuyển Đại Học IUH</h1>
+                <p>Công cụ tính điểm xét tuyển vào Trường Đại học Công nghiệp TP.HCM</p>
+            </header>
+
+            <div class="content">
+                <!-- Input Form -->
+                <div class="form-section">
+                    <div class="card">
+                        <div class="card-header">
+                            <h2>NHẬP THÔNG TIN XÉT TUYỂN</h2>
+                        </div>
+                        <div class="card-content">
+                            <div class="tabs">
+                                <div class="tabs-list">
+                                    <button class="tab-button active" data-tab="scores">Điểm Học Tập</button>
+                                    <button class="tab-button" data-tab="priority">Điểm Ưu Tiên</button>
+                                    <button class="tab-button" data-tab="bonus">Điểm Thưởng</button>
+                                </div>
+
+                                <div class="tab-content">
+                                    <!-- Subject Scores Tab -->
+                                    <div class="tab-pane active" id="scores">
+                                        <div class="score-grid">
+                                            <div class="form-group">
+                                                <label for="toan">Điểm Toán</label>
+                                                <input type="text" id="toan" class="input" placeholder="Nhập điểm Toán">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="vatLy">Điểm Vật lý</label>
+                                                <input type="text" id="vatLy" class="input" placeholder="Nhập điểm Vật lý">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="hoaHoc">Điểm Hóa học</label>
+                                                <input type="text" id="hoaHoc" class="input" placeholder="Nhập điểm Hóa học">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="sinhHoc">Điểm Sinh học</label>
+                                                <input type="text" id="sinhHoc" class="input" placeholder="Nhập điểm Sinh học">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="nguVan">Điểm Ngữ văn</label>
+                                                <input type="text" id="nguVan" class="input" placeholder="Nhập điểm Ngữ văn">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="tiengAnh">Điểm Tiếng Anh</label>
+                                                <input type="text" id="tiengAnh" class="input" placeholder="Nhập điểm Tiếng Anh">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="lichSu">Điểm Lịch sử</label>
+                                                <input type="text" id="lichSu" class="input" placeholder="Nhập điểm Lịch sử">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="diaLy">Điểm Địa lý</label>
+                                                <input type="text" id="diaLy" class="input" placeholder="Nhập điểm Địa lý">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="gdkt">Điểm GDKT-Pháp luật</label>
+                                                <input type="text" id="gdkt" class="input" placeholder="Nhập điểm GDKT-Pháp luật">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="tinHoc">Điểm Tin học</label>
+                                                <input type="text" id="tinHoc" class="input" placeholder="Nhập điểm Tin học">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="congNgheNN">Điểm Công nghệ nông nghiệp</label>
+                                                <input type="text" id="congNgheNN" class="input" placeholder="Nhập điểm Công nghệ nông nghiệp">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="congNgheCN">Điểm Công nghệ công nghiệp</label>
+                                                <input type="text" id="congNgheCN" class="input" placeholder="Nhập điểm Công nghệ công nghiệp">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Priority Points Tab -->
+                                    <div class="tab-pane" id="priority">
+                                        <div class="priority-section">
+                                            <h3>Khu vực ưu tiên</h3>
+                                            <div class="radio-group">
+                                                <div class="radio-item">
+                                                    <input type="radio" id="kv1" name="priorityArea" value="0.75">
+                                                    <label for="kv1">KV1 - Xã đặc biệt khó khăn, miền núi (0.75 điểm)</label>
+                                                </div>
+                                                <div class="radio-item">
+                                                    <input type="radio" id="kv2-nt" name="priorityArea" value="0.5">
+                                                    <label for="kv2-nt">KV2-NT - Nông thôn (0.5 điểm)</label>
+                                                </div>
+                                                <div class="radio-item">
+                                                    <input type="radio" id="kv2" name="priorityArea" value="0.25">
+                                                    <label for="kv2">KV2 - Thị xã, thành phố trực thuộc tỉnh (0.25 điểm)</label>
+                                                </div>
+                                                <div class="radio-item">
+                                                    <input type="radio" id="kv3" name="priorityArea" value="0" checked>
+                                                    <label for="kv3">KV3 - Thành phố trực thuộc TƯ (0 điểm)</label>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="priority-section">
+                                            <h3>Đối tượng ưu tiên</h3>
+                                            <div class="radio-group">
+                                                <div class="radio-item">
+                                                    <input type="radio" id="ut1" name="priorityGroup" value="2">
+                                                    <label for="ut1">UT1 - Thương binh, con liệt sĩ, dân tộc thiểu số KV1... (2.0 điểm)</label>
+                                                </div>
+                                                <div class="radio-item">
+                                                    <input type="radio" id="ut2" name="priorityGroup" value="1">
+                                                    <label for="ut2">UT2 - Con thương binh, thanh niên xung phong... (1.0 điểm)</label>
+                                                </div>
+                                                <div class="radio-item">
+                                                    <input type="radio" id="ut0" name="priorityGroup" value="0" checked>
+                                                    <label for="ut0">Không thuộc diện ưu tiên (0 điểm)</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Bonus Points Tab -->
+                                    <div class="tab-pane" id="bonus">
+                                        <h3 class="bonus-title">Điểm thưởng (khuyến khích)</h3>
+                                        <p class="bonus-note">Chọn tất cả thành tích phù hợp. Tổng điểm thưởng sẽ được tính và giới hạn theo quy định.</p>
+
+                                        <div class="checkbox-group">
+                                            <div class="checkbox-item">
+                                                <input type="checkbox" id="bonus-3.0" value="3.0">
+                                                <label for="bonus-3.0">Giải Nhất học sinh giỏi cấp tỉnh (3.0 điểm)</label>
+                                            </div>
+                                            <div class="checkbox-item">
+                                                <input type="checkbox" id="bonus-2.5-1" value="2.5">
+                                                <label for="bonus-2.5-1">Giải Nhì học sinh giỏi cấp tỉnh (2.5 điểm)</label>
+                                            </div>
+                                            <div class="checkbox-item">
+                                                <input type="checkbox" id="bonus-2.5-2" value="2.5">
+                                                <label for="bonus-2.5-2">Trường chuyên / lớp chuyên (2.5 điểm)</label>
+                                            </div>
+                                            <div class="checkbox-item">
+                                                <input type="checkbox" id="bonus-2.0-1" value="2.0">
+                                                <label for="bonus-2.0-1">Giải Ba học sinh giỏi cấp tỉnh (2.0 điểm)</label>
+                                            </div>
+                                            <div class="checkbox-item">
+                                                <input type="checkbox" id="bonus-2.0-2" value="2.0">
+                                                <label for="bonus-2.0-2">Giải Olympic, KHKT cấp tỉnh (2.0 điểm)</label>
+                                            </div>
+                                            <div class="checkbox-item">
+                                                <input type="checkbox" id="bonus-2.0-3" value="2.0">
+                                                <label for="bonus-2.0-3">Học lực Giỏi 3 năm (10-12) (2.0 điểm)</label>
+                                            </div>
+                                            <div class="checkbox-item">
+                                                <input type="checkbox" id="bonus-2.0-4" value="2.0">
+                                                <label for="bonus-2.0-4">THPT liên kết IUH (2.0 điểm)</label>
+                                            </div>
+                                            <div class="checkbox-item">
+                                                <input type="checkbox" id="bonus-2.0-5" value="2.0">
+                                                <label for="bonus-2.0-5">THPT "Top" Mức 1 (2.0 điểm)</label>
+                                            </div>
+                                            <div class="checkbox-item">
+                                                <input type="checkbox" id="bonus-1.5-1" value="1.5">
+                                                <label for="bonus-1.5-1">Giải Khuyến khích học sinh giỏi cấp tỉnh (1.5 điểm)</label>
+                                            </div>
+                                            <div class="checkbox-item">
+                                                <input type="checkbox" id="bonus-1.5-2" value="1.5">
+                                                <label for="bonus-1.5-2">THPT "Top" Mức 2 (1.5 điểm)</label>
+                                            </div>
+                                            <div class="checkbox-item">
+                                                <input type="checkbox" id="bonus-1.0-1" value="1.0">
+                                                <label for="bonus-1.0-1">THPT "Top" Mức 3 (1.0 điểm)</label>
+                                            </div>
+                                            <div class="checkbox-item">
+                                                <input type="checkbox" id="bonus-1.0-2" value="1.0">
+                                                <label for="bonus-1.0-2">Thành tích nổi bật khác (1.0 điểm)</label>
+                                            </div>
+                                        </div>
+
+                                        <div class="alert">
+                                            <i class="fas fa-info-circle"></i>
+                                            <div class="alert-content">
+                                                <h4>Lưu ý</h4>
+                                                <ul>
+                                                    <li>Bạn có thể chọn nhiều thành tích cùng lúc</li>
+                                                    <li>Tổng điểm ưu tiên và điểm thưởng không vượt quá 3 điểm</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="form-actions">
+                                    <button type="button" id="resetBtn" class="btn btn-outline">Nhập lại</button>
+                                    <button type="button" id="calculateBtn" class="btn btn-primary">Tính điểm</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Results -->
+                <div class="results-section">
+                    <div class="card" id="resultsCard" style="display: none;">
+                        <div class="card-header">
+                            <h2>KẾT QUẢ TÍNH ĐIỂM</h2>
+                        </div>
+                        <div class="card-content">
+                            <div id="resultsContent">
+                                <!-- Results will be dynamically inserted here by JavaScript -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card" id="guideCard">
+                        <div class="card-header">
+                            <h2>HƯỚNG DẪN</h2>
+                        </div>
+                        <div class="card-content">
+                            <p>Nhập điểm các môn học, chọn khu vực ưu tiên, đối tượng ưu tiên và điểm thưởng (nếu có) để tính điểm xét tuyển vào IUH.</p>
+                            <div class="alert">
+                                <i class="fas fa-info-circle"></i>
+                                <div class="alert-content">
+                                    <h4>Lưu ý</h4>
+                                    <ul>
+                                        <li>Điểm các môn học nhập theo thang 10</li>
+                                        <li>Hệ thống sẽ tự động tính tổ hợp 3 môn có điểm cao nhất</li>
+                                        <li>Tổng điểm ưu tiên và thưởng tối đa là 3 điểm</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Footer -->
+            <footer class="footer">
+                <p>© 2025 Trường Đại học Công nghiệp TP.HCM (IUH)</p>
+                <p>Địa chỉ: Số 12 Nguyễn Văn Bảo, Phường 1, Quận Gò Vấp, TP.HCM</p>
+            </footer>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
