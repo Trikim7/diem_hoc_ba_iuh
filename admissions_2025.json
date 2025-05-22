@@ -1,0 +1,573 @@
+{
+  "elective_groups": {
+    "TC1": [
+      "Ngữ văn",
+      "Tiếng Anh",
+      "Hóa học",
+      "Công nghệ công nghiệp",
+      "Tin học",
+      "GD kinh tế - Pháp luật"
+    ],
+    "TC2": [
+      "Vật lí",
+      "Hóa học",
+      "Tin học",
+      "Tiếng Anh",
+      "Công nghệ công nghiệp"
+    ],
+    "TC3": [
+      "Vật lí",
+      "Sinh học",
+      "Ngữ văn",
+      "Công nghệ công nghiệp",
+      "Tiếng Anh"
+    ],
+    "TC4": [
+      "Tiếng Anh",
+      "Hóa học",
+      "Sinh học",
+      "Công nghệ nông nghiệp",
+      "GD kinh tế - Pháp luật"
+    ],
+    "TC5": [
+      "Vật lí",
+      "Hóa học",
+      "Ngữ văn",
+      "Tiếng Anh",
+      "Công nghệ nông nghiệp",
+      "GD kinh tế - Pháp luật"
+    ],
+    "TC6": [
+      "Tiếng Anh",
+      "Vật lí",
+      "Địa lí",
+      "Lịch sử",
+      "GD kinh tế - Pháp luật",
+      "Tin học"
+    ],
+    "TC7": [
+      "Ngữ văn",
+      "Vật lí",
+      "Địa lí",
+      "Lịch sử",
+      "GD kinh tế - Pháp luật",
+      "Tin học"
+    ],
+    "TC8": [
+      "Toán",
+      "Lịch sử",
+      "Địa lí",
+      "GD Kinh tế - Pháp luật"
+    ],
+    "TC9": [
+      "Toán",
+      "Địa lí",
+      "GD Kinh tế - Pháp luật",
+      "Tiếng Anh"
+    ],
+    "TC10": [
+      "Ngữ văn",
+      "Địa lí",
+      "Lịch sử",
+      "GD Kinh tế - Pháp luật"
+    ],
+    "TC11": [
+      "Ngữ văn",
+      "Tiếng Anh",
+      "Lịch sử",
+      "Vật lí",
+      "Sinh học"
+    ]
+  },
+  "majors": [
+    {
+      "id": 1,
+      "major": "Công nghệ kỹ thuật điện, điện tử",
+      "codes": [
+        "7510301",
+        "7510301C"
+      ],
+      "compulsory": [
+        "Toán",
+        "Vật lí"
+      ],
+      "elective_group": "TC1"
+    },
+    {
+      "id": 2,
+      "major": "Tự động hóa",
+      "codes": [
+        "7510303",
+        "7510303C"
+      ],
+      "compulsory": [
+        "Toán",
+        "Vật lí"
+      ],
+      "elective_group": "TC1"
+    },
+    {
+      "id": 3,
+      "major": "Công nghệ kỹ thuật điện tử – viễn thông",
+      "codes": [
+        "7510302"
+      ],
+      "compulsory": [
+        "Toán",
+        "Vật lí"
+      ],
+      "elective_group": "TC1"
+    },
+    {
+      "id": 4,
+      "major": "Công nghệ kỹ thuật điện tử – viễn thông (Tăng cường tiếng Anh)",
+      "codes": [
+        "7510302C"
+      ],
+      "compulsory": [
+        "Toán",
+        "Vật lí"
+      ],
+      "elective_group": "TC1"
+    },
+    {
+      "id": 5,
+      "major": "Kỹ thuật máy tính",
+      "codes": [
+        "7480108",
+        "7480108C"
+      ],
+      "compulsory": [
+        "Toán",
+        "Vật lí"
+      ],
+      "elective_group": "TC1"
+    },
+    {
+      "id": 6,
+      "major": "Công nghệ kỹ thuật cơ khí",
+      "codes": [
+        "7510201",
+        "7510201C"
+      ],
+      "compulsory": [
+        "Toán",
+        "Vật lí"
+      ],
+      "elective_group": "TC1"
+    },
+    {
+      "id": 7,
+      "major": "Công nghệ kỹ thuật cơ điện tử",
+      "codes": [
+        "7510203",
+        "7510203C"
+      ],
+      "compulsory": [
+        "Toán",
+        "Vật lí"
+      ],
+      "elective_group": "TC1"
+    },
+    {
+      "id": 8,
+      "major": "Công nghệ chế tạo máy",
+      "codes": [
+        "7510202",
+        "7510202C"
+      ],
+      "compulsory": [
+        "Toán",
+        "Vật lí"
+      ],
+      "elective_group": "TC1"
+    },
+    {
+      "id": 9,
+      "major": "Công nghệ kỹ thuật ô tô",
+      "codes": [
+        "7510205",
+        "7510205C"
+      ],
+      "compulsory": [
+        "Toán",
+        "Vật lí"
+      ],
+      "elective_group": "TC1"
+    },
+    {
+      "id": 10,
+      "major": "Công nghệ kỹ thuật nhiệt",
+      "codes": [
+        "7510206",
+        "7510206C"
+      ],
+      "compulsory": [
+        "Toán",
+        "Vật lí"
+      ],
+      "elective_group": "TC1"
+    },
+    {
+      "id": 11,
+      "major": "Kỹ thuật xây dựng",
+      "codes": [
+        "7580201"
+      ],
+      "compulsory": [
+        "Toán",
+        "Vật lí"
+      ],
+      "elective_group": "TC1"
+    },
+    {
+      "id": 12,
+      "major": "Kỹ thuật xây dựng công trình giao thông",
+      "codes": [
+        "7580205"
+      ],
+      "compulsory": [
+        "Toán",
+        "Vật lí"
+      ],
+      "elective_group": "TC1"
+    },
+    {
+      "id": 13,
+      "major": "Quản lý xây dựng",
+      "codes": [
+        "7580302"
+      ],
+      "compulsory": [
+        "Toán",
+        "Vật lí"
+      ],
+      "elective_group": "TC1"
+    },
+    {
+      "id": 14,
+      "major": "Công nghệ dệt, may",
+      "codes": [
+        "7540204"
+      ],
+      "compulsory": [
+        "Toán",
+        "Ngữ văn"
+      ],
+      "elective_group": "TC2"
+    },
+    {
+      "id": 15,
+      "major": "Thiết kế thời trang",
+      "codes": [
+        "7210404"
+      ],
+      "compulsory": [
+        "Toán",
+        "Ngữ văn"
+      ],
+      "elective_group": "TC2"
+    },
+    {
+      "id": 16,
+      "major": "Nhóm ngành Công nghệ thông tin",
+      "codes": [
+        "7480201"
+      ],
+      "compulsory": [
+        "Toán",
+        "Vật lí"
+      ],
+      "elective_group": "TC1"
+    },
+    {
+      "id": 17,
+      "major": "Nhóm ngành Công nghệ thông tin (Tăng cường tiếng Anh)",
+      "codes": [
+        "7480201C"
+      ],
+      "compulsory": [
+        "Toán",
+        "Vật lí"
+      ],
+      "elective_group": "TC1"
+    },
+    {
+      "id": 18,
+      "major": "Công nghệ hóa học",
+      "codes": [
+        "7510401",
+        "7510401C"
+      ],
+      "compulsory": [
+        "Toán",
+        "Hóa học"
+      ],
+      "elective_group": "TC3"
+    },
+    {
+      "id": 19,
+      "major": "Dược học",
+      "codes": [
+        "7720201"
+      ],
+      "compulsory": [
+        "Toán",
+        "Hóa học"
+      ],
+      "elective_group": "TC3"
+    },
+    {
+      "id": 20,
+      "major": "Công nghệ thực phẩm",
+      "codes": [
+        "7540101",
+        "7540101C"
+      ],
+      "compulsory": [
+        "Toán",
+        "Hóa học"
+      ],
+      "elective_group": "TC3"
+    },
+    {
+      "id": 21,
+      "major": "Dinh dưỡng và Khoa học thực phẩm",
+      "codes": [
+        "7720497"
+      ],
+      "compulsory": [
+        "Toán",
+        "Hóa học"
+      ],
+      "elective_group": "TC3"
+    },
+    {
+      "id": 22,
+      "major": "Đảm bảo chất lượng và An toàn thực phẩm",
+      "codes": [
+        "7540106"
+      ],
+      "compulsory": [
+        "Toán",
+        "Hóa học"
+      ],
+      "elective_group": "TC3"
+    },
+    {
+      "id": 23,
+      "major": "Công nghệ sinh học",
+      "codes": [
+        "7420201",
+        "7420201C"
+      ],
+      "compulsory": [
+        "Toán",
+        "Sinh học"
+      ],
+      "elective_group": "TC5"
+    },
+    {
+      "id": 24,
+      "major": "Quản lý đất đai",
+      "codes": [
+        "7850103"
+      ],
+      "compulsory": [
+        "Toán",
+        "Ngữ văn"
+      ],
+      "elective_group": "TC4"
+    },
+    {
+      "id": 25,
+      "major": "Quản lý tài nguyên và môi trường",
+      "codes": [
+        "7850101"
+      ],
+      "compulsory": [
+        "Toán",
+        "Địa lí"
+      ],
+      "elective_group": "TC11"
+    },
+    {
+      "id": 26,
+      "major": "Công nghệ kỹ thuật môi trường",
+      "codes": [
+        "7510406"
+      ],
+      "compulsory": [
+        "Toán",
+        "Hóa học"
+      ],
+      "elective_group": "TC3"
+    },
+    {
+      "id": 27,
+      "major": "Kế toán",
+      "codes": [
+        "7340301",
+        "7340301C"
+      ],
+      "compulsory": [
+        "Toán",
+        "Ngữ văn"
+      ],
+      "elective_group": "TC6"
+    },
+    {
+      "id": 28,
+      "major": "Kiểm toán",
+      "codes": [
+        "7340302",
+        "7340302C"
+      ],
+      "compulsory": [
+        "Toán",
+        "Ngữ văn"
+      ],
+      "elective_group": "TC6"
+    },
+    {
+      "id": 29,
+      "major": "Kế toán (Advanced Diploma ACCA)",
+      "codes": [
+        "7340301Q"
+      ],
+      "compulsory": [
+        "Toán",
+        "Ngữ văn"
+      ],
+      "elective_group": "TC6"
+    },
+    {
+      "id": 30,
+      "major": "Kiểm toán (CFAB ICAEW)",
+      "codes": [
+        "7340302Q"
+      ],
+      "compulsory": [
+        "Toán",
+        "Ngữ văn"
+      ],
+      "elective_group": "TC6"
+    },
+    {
+      "id": 31,
+      "major": "Tài chính ngân hàng",
+      "codes": [
+        "7340201",
+        "7340201C"
+      ],
+      "compulsory": [
+        "Toán",
+        "Ngữ văn"
+      ],
+      "elective_group": "TC6"
+    },
+    {
+      "id": 32,
+      "major": "Quản trị kinh doanh",
+      "codes": [
+        "7340101",
+        "7340101C"
+      ],
+      "compulsory": [
+        "Toán",
+        "Ngữ văn"
+      ],
+      "elective_group": "TC6"
+    },
+    {
+      "id": 33,
+      "major": "Marketing",
+      "codes": [
+        "7340115",
+        "7340115C"
+      ],
+      "compulsory": [
+        "Toán",
+        "Ngữ văn"
+      ],
+      "elective_group": "TC6"
+    },
+    {
+      "id": 34,
+      "major": "Quản trị dịch vụ du lịch và lữ hành",
+      "codes": [
+        "7810103",
+        "7810103C"
+      ],
+      "compulsory": [
+        "Toán",
+        "Tiếng Anh"
+      ],
+      "elective_group": "TC7"
+    },
+    {
+      "id": 35,
+      "major": "Kinh doanh quốc tế",
+      "codes": [
+        "7340120",
+        "7340120C"
+      ],
+      "compulsory": [
+        "Toán",
+        "Tiếng Anh"
+      ],
+      "elective_group": "TC7"
+    },
+    {
+      "id": 36,
+      "major": "Thương mại điện tử",
+      "codes": [
+        "7340122",
+        "7340122C"
+      ],
+      "compulsory": [
+        "Toán",
+        "Tiếng Anh"
+      ],
+      "elective_group": "TC7"
+    },
+    {
+      "id": 37,
+      "major": "Nhóm ngành ngôn ngữ",
+      "codes": [
+        "7220201"
+      ],
+      "compulsory": [
+        "Ngữ văn",
+        "Tiếng Anh"
+      ],
+      "elective_group": "TC8"
+    },
+    {
+      "id": 38,
+      "major": "Luật kinh tế",
+      "codes": [
+        "7380107",
+        "7380107C"
+      ],
+      "compulsory": [
+        "Ngữ văn",
+        "Lịch sử"
+      ],
+      "elective_group": "TC9"
+    },
+    {
+      "id": 39,
+      "major": "Luật quốc tế",
+      "codes": [
+        "7380108",
+        "7380108C"
+      ],
+      "compulsory": [
+        "Ngữ văn",
+        "Lịch sử"
+      ],
+      "elective_group": "TC9"
+    }
+  ]
+}
